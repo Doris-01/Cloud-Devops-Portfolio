@@ -1,3 +1,5 @@
+import emoji from "react-easy-emoji";
+
 const educationInfo = {
   display: true,
   schools: [
@@ -100,4 +102,11 @@ const achievementSection = {
     }
   ],
   display: true
+};
+
+export {
+  educationInfo,
+  workExperiences,
+  bigProjects,
+  achievementSection
 };
